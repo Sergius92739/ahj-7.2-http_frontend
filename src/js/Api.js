@@ -15,12 +15,12 @@ export default class Api {
         if (e.name === 'description') {
           params.append('description', `${e.value}`);
         }
-      })
+      });
     this.options = {
       method: 'POST',
       query: 'method=createTicket',
-      data: params
-    }
+      data: params,
+    };
     return this.createRequest(this.options, callback);
   }
 
@@ -28,8 +28,8 @@ export default class Api {
     this.options = {
       method: 'GET',
       query: 'method=allTickets',
-      data: null
-    }
+      data: null,
+    };
     return this.createRequest(this.options, callback);
   }
 
@@ -37,8 +37,8 @@ export default class Api {
     this.options = {
       method: 'GET',
       query: `method=changeStatus&id=${id}`,
-      data: null
-    }
+      data: null,
+    };
     return this.createRequest(this.options, callback);
   }
 
@@ -46,8 +46,8 @@ export default class Api {
     this.options = {
       method: 'GET',
       query: `method=ticketById&id=${id}`,
-      data: null
-    }
+      data: null,
+    };
     return this.createRequest(this.options, callback);
   }
 
@@ -68,7 +68,7 @@ export default class Api {
       method: 'POST',
       query: 'method=editTicket',
       data: params,
-    }
+    };
     this.createRequest(this.options, callback);
   }
 
@@ -76,8 +76,8 @@ export default class Api {
     this.options = {
       method: 'GET',
       query: `method=deleteTicket&id=${id}`,
-      data: null
-    }
+      data: null,
+    };
     return this.createRequest(this.options, callback);
   }
 

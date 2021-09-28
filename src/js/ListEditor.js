@@ -79,7 +79,7 @@ export default class ListEditor {
       this.addChangePopup.showAdding();
     });
     this.form.addEventListener('submit', (event) => this.onSubmit(event));
-    this.form.elements[0].addEventListener('change', () => this.onChange())
+    this.form.elements[0].addEventListener('change', () => this.onChange());
     this.listTickets.addEventListener('click', (event) => this.onActionsClick(event));
     this.addChangePopup.sample.addEventListener('click', (event) => this.onPopupClick(event));
     this.confirmPopup.getPopup('confirmDel').addEventListener('click', (event) => this.onConfirmPopupClick(event));
@@ -129,7 +129,7 @@ export default class ListEditor {
           this.titleField.value = data.name;
           this.descripField.value = data.description;
         }
-      })
+      });
     }
     if (event.target.dataset.name === 'delete') {
       this.curId = event.target.closest('tr').id;
@@ -188,7 +188,7 @@ export default class ListEditor {
         <div class="td_content"><span class="editing" data-name="editing"></span><span class="delete" data-name="delete"></span></div>
       </td>
     </tr>`);
-      const current = document.querySelector(`[id="${e.id}"] [data-name="status"]`)
+      const current = document.querySelector(`[id="${e.id}"] [data-name="status"]`);
       if (e.status) {
         current.classList.add('checked');
       }
