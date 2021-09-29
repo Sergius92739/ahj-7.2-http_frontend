@@ -46,6 +46,7 @@ $hoverBg: rgb(240, 240, 240);
     font-size: 1.3rem;
     border-collapse: collapse;
     width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6%), 0 2px 10px 0 rgba(0, 0, 0, 0.6%);
   }
   &__title {
     text-align: left;
@@ -162,4 +163,5 @@ tfoot th[colspan="1"] {
   padding: 20px 30px;
   cursor: pointer;
   background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6%), 0 2px 10px 0 rgba(0, 0, 0, 0.6%);
 }
