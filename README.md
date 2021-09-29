@@ -1,8 +1,10 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/gnc92rpecna60146/branch/master?svg=true)](https://ci.appveyor.com/project/Sergius92739/ahj-7-2-http-frontend/branch/master)
 
-#### Deployment: https://sergius92739.github.io/ahj-7.2-http_frontend/
+#### Deployment: <a href="https://sergius92739.github.io/ahj-7.2-http_frontend/">Github Pages</a>
 
-#### Backend: https://ahj-7-1helpdesk.herokuapp.com/
+#### Backend: <a href="https://github.com/Sergius92739/ahj-7.1-http_backend">Repository</a>
+
+#### Server: <a href="https://ahj-7-1helpdesk.herokuapp.com/">Heroku</a> 
 
 ### HelpDesk
 
