@@ -1,7 +1,7 @@
 export default class Api {
   constructor() {
     this.options = null;
-    this.baseURL = 'https://ahj-7-1helpdesk.herokuapp.com/';
+    this.baseURL = 'https://ahj-7-1-http-sergius.herokuapp.com/';
   }
 
   createTicket(form, callback) {
