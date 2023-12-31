@@ -3,7 +3,6 @@ export default class Api {
     this.options = null;
     // this.baseURL = 'https://ahj-7-1-http-backend-sergius.amvera.io/';
     this.baseURL = 'http://213.171.3.222:3000/';
-
   }
 
   createTicket(form, callback) {
