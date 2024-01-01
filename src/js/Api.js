@@ -2,7 +2,7 @@ export default class Api {
   constructor() {
     this.options = null;
     // this.baseURL = 'https://ahj-7-1-http-backend-sergius.amvera.io/';
-    this.baseURL = 'http://ahj71.sergem.xyz/';
+    this.baseURL = 'https://ahj71.sergem.xyz/';
   }
 
   createTicket(form, callback) {
