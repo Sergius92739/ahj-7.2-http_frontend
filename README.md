@@ -4,7 +4,7 @@
 
 #### Backend: <a href="https://github.com/Sergius92739/ahj-7.1-http_backend">Repository</a>
 
-#### Server: <a href="https://ahj71.sergem.xyz/">Облачный сервер</a> 
+#### Server: <a href="https://ahj-7-1.sergem.xyz/">Облачный сервер</a> 
 
 ### HelpDesk
 
